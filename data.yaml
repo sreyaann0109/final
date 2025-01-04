@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['plate']
+
+roboflow:
+  workspace: sean-b0gd1
+  project: car-plate-hzp88
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/sean-b0gd1/car-plate-hzp88/dataset/3
